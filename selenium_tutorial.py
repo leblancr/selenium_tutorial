@@ -23,4 +23,4 @@ for link in links:
         link.click()
         break
 
-time.sleep(3)
+time.sleep(4)
