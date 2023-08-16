@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "selenium-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["rich <rkba2@outlook.com>"]
+readme = "README.md"
+packages = [{include = "selenium_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.11.2"
+webdriver-manager = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
